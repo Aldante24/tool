@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url(menu.css);
+
 *{
   margin: 0;
   padding: 0;
@@ -35,26 +36,31 @@ h1 {
   float: left;
 }
 
-.banner{
+section {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/*.banner{
   width: 900px;
   height: 300px;
   border: 2px solid red;
-  margin: auto;
+  margin: auto;*/
 
   /*background-image: url(../images/intro.jpg);*/
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;
 
   animation: banner 10s infinite;
   animation-direction: alternate;
 
-}
+}*/
 
-@keyframes banner {
-  0%,30%{
+/*@keyframes banner {*/
+  /*0%,30%{
     background-image: url(../images/phonex.png);
     opacity: 1;
-  }
-  31%,34%{
+  }*/
+  /*31%,34%{
     opacity: 0.1;
   }
   35%,65%{
@@ -68,4 +74,4 @@ h1 {
     background-image: url(../images/intro.jpg);
     opacity: 1;
   }
-}
+}*/
