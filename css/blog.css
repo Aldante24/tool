@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-#blog .contenedor {
+#blog .contenedorr {
   display: flex;
   justify-content: center;
   /*flex-wrap: wrap;*/
@@ -10,6 +10,10 @@
 
 #blog article {
   margin: 15px;
+}
+
+#blog article ul li {
+  /*list-style: none;*/
 }
 
 #blog img {
